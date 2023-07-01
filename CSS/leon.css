@@ -111,7 +111,7 @@ body {
     background-color: var(--section-background);
     position: absolute;
     min-width: 200px;
-    top: calc(100% + 15px);
+    top:100%; /* calc(100% + 15px); */
     right: 0;
     display: none;
     z-index: 1;
@@ -414,3 +414,16 @@ body {
     }
 }
 /* End Contact Section */
+/* Start Footer Section */
+.footer {
+    background-color: var(--secandary-color);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer span {
+    font-weight: bold;
+    color: var(--main-color);
+}
+/* End Footer Section */
